@@ -1,0 +1,5 @@
+puts "hello world"
+puts "hello"
+puts "world"
+puts -nonewline "hello"
+puts "world"

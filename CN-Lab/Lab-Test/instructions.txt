@@ -1,0 +1,17 @@
+for ns simulation Qs2:
+1. run the tcl script using 
+	ns q1.tcl
+2. execute the nam simulation using
+	nam nam.out
+3. run the awk script using
+	awk -f tp.awk trace.tr > tp.tr
+4. generate the graph plot using
+	gnuplot tp.gp
+
+for sockets Qs1:
+run 
+python q2s.py ---- run the sever
+python q2c.py ---- run the client
+
+Enter 3 numbers in client giving space... example 2 4 8
+and hit enter. Output will come in server.
